@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.operator{
+  align-items: center;
+  background-color: #9acd32;
+  box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+  cursor: move;
+  display: flex;
+  font-weight: bolder;
+  height: 100px;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+}
+
+.operand{
+  background-color: #bc8f8f;
+  align-items: center;  
+  box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+  cursor: move;
+  display: flex;
+  font-weight: bolder;
+  height: 100px;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+}
+
+.dropContainer{
+  border: 2px dashed rgb(14, 10, 10);
+  height: 150px;
+  display: flex;
+}
+
+.dItems{
+  position: relative;
+  background-color: rgba(86, 35, 206, 0.747);
+  align-items: center;  
+  color: aliceblue;
+  box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+  cursor: move;
+  display: flex;
+  font-weight: bolder;
+  height: 100px;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+}
+
+
+.closeBtn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color:red;
+  padding-right:5px ;
+  font-size: 18px;
+  margin-left: 5px;
+  pointer-events: curser;
+}
